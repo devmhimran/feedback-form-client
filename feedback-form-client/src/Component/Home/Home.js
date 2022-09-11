@@ -1,33 +1,47 @@
 import React from 'react';
 import './Home.css';
 import HomeLeft from './HomeLeft';
-
+import formImage from '../Assets/feedback__form__image__02.png';
 
 const Home = () => {
     return (
         <div className='feedback__main'>
             <div className="container">
                 <div className="feedback__form">
-                    <HomeLeft></HomeLeft>
+                    <div className="feedback__form__left">
+                        <div className="feedback__form__left__main">
+                            <h1 className='heading'>
+                                Get Everything you need<br></br>
+                                for creating wordpress<br></br>
+                                website
+                            </h1>
+                            <img className='form__image' src={formImage} alt="" />
+                            <p className='feedback__form__bottom__text'>
+                                All-in-one Multifunctional subscribe <br></br>
+                                service perfect for launching all kinds of <br></br>
+                                wordpress projects
+                            </p>
+                        </div>
+                    </div>
                     <div className="feedback__form__right">
                         <div className="feedback__form__right__content">
                             <div className="form__title">
-                                <p className='uppercase text-[#4BC7A7] text-2xl'>Subscribe and get your bonus!</p>
+                                <p>Subscribe and get your bonus!</p>
                             </div>
-                            <form className='mt-10'>
-                                <div className="form__input my-4">
-                                    <input className='px-4 py-3 outline-0 w-full rounded bg-[#494D5C] text-[#999EAB]' placeholder='Email address' type="email" name="" id="" />
+                            <form className='form__main'>
+                                <div className="form__input">
+                                    <input placeholder='Email address' type="email" name="" id="" />
                                 </div>
-                                <div className="form__input my-4">
+                                <div className="form__input">
                                     <input className='px-4 py-3 outline-0 w-full rounded bg-[#494D5C] text-[#999EAB]' placeholder='First name' type="text" name="" id="" />
                                 </div>
-                                <div className="form__input my-4">
+                                <div className="form__input">
                                     <input className='px-4 py-3 outline-0 w-full rounded bg-[#494D5C] text-[#999EAB]' type="text" placeholder='Last name' name="" id="" />
                                 </div>
-                                <div className="form__input my-4">
+                                <div className="form__input">
                                     <input className='px-4 py-3 outline-0 w-full rounded bg-[#494D5C] text-[#999EAB]' type="text" placeholder='Address' name="" id="" />
                                 </div>
-                                <div className="form__input my-4">
+                                <div className="form__input">
                                     <button className='py-4 px-8'>Stay Updated</button>
                                 </div>
                             </form>

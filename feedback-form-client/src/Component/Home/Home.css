@@ -15,35 +15,44 @@
     margin: 0 auto;
 }
 .feedback__form{
-    width: 900px;
-    margin: 0 auto;
     display: flex;
 }
 .feedback__form__left{
-    width: 540px;
-    padding: 40px 50px;
+    width: 450px;
     background-color: #fff;
+    padding: 50px 60px;
 }
 .feedback__form__left__main{
     text-align: center;
 }
 .heading{
-    color: #3D3E46;
     font-size: 28px;
-    line-height: 1.5;
-    text-transform: capitalize;
-    font-weight: 600;
-}
-.form__image{
-    width: 100%;
+    line-height: 42px;
+    font-weight: 500;
+    color: #3d3e46;
 }
 .feedback__form__bottom__text{
     font-size: 18px;
     font-weight: 500;
-    color: #BBBEC8;
+    color: #bbbec8;
 }
 .feedback__form__right{
-    width: 360px;
-    padding: 40px 50px;
+    width: 335px;
+    padding: 48px;
     background-color: #292E3F;
+}
+.form__image{
+    width: 100%;
+}
+.form__main{
+    width: 100%;
+}
+.form__input input{
+    width: 100%;
+    border-radius: 50px;
+}
+.form__title p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #4bc7a7;
 }
