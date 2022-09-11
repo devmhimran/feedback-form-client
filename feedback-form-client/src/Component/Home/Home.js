@@ -43,7 +43,7 @@ const Home = () => {
                                 </div>
                                 
                                 <div className="form__input">
-                                    <button className='py-4 px-8'>Stay Updated</button>
+                                    <button className='update__button'>Stay Updated</button>
                                 </div>
                             </form>
                         </div>
