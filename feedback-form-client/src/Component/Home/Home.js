@@ -33,14 +33,15 @@ const Home = () => {
                                     <input placeholder='Email address' type="email" name="" id="" />
                                 </div>
                                 <div className="form__input">
-                                    <input className='px-4 py-3 outline-0 w-full rounded bg-[#494D5C] text-[#999EAB]' placeholder='First name' type="text" name="" id="" />
+                                    <input placeholder='First name' type="text" name="" id="" />
                                 </div>
                                 <div className="form__input">
-                                    <input className='px-4 py-3 outline-0 w-full rounded bg-[#494D5C] text-[#999EAB]' type="text" placeholder='Last name' name="" id="" />
+                                    <input type="text" placeholder='Last name' name="" id="" />
                                 </div>
                                 <div className="form__input">
-                                    <input className='px-4 py-3 outline-0 w-full rounded bg-[#494D5C] text-[#999EAB]' type="text" placeholder='Address' name="" id="" />
+                                    <input type="text" placeholder='Address' name="" id="" />
                                 </div>
+                                
                                 <div className="form__input">
                                     <button className='py-4 px-8'>Stay Updated</button>
                                 </div>
