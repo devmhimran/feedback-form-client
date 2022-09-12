@@ -36,7 +36,7 @@ p {
 }
 
 .feedback__form__left {
-    width: 450px;
+    width: 480px;
     background-color: #fff;
     padding: 45px 50px;
 }
@@ -55,14 +55,14 @@ p {
 }
 
 .feedback__form__bottom__text {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 500;
     color: #bbbec8;
     text-transform: capitalize;
 }
 
 .feedback__form__right {
-    width: 330px;
+    width: 350px;
     padding: 48px;
     background-color: #292E3F;
 
@@ -80,7 +80,7 @@ p {
 
 .form__title p {
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 500;
     color: #4bc7a7;
     text-transform: uppercase;
     line-height: 1.25;
@@ -122,6 +122,22 @@ p {
     text-transform: uppercase;
     cursor: pointer;
 }
+.form__footer{
+    padding-top: 20px;
+    display: flex;
+}
+.footer__text{
+    font-size: 14px;
+    text-align: center;
+    color: #A4A9B6;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.footer__icon{
+    font-size: 20px;
+    margin-right: 5px;
+    color: #A4A9B6;
+}
 
 .update__button:hover {
     background-color: #2bca9a;
@@ -133,6 +149,9 @@ p {
     }
     .feedback__form {
         display: block;
+    }
+    .feedback__form__left{
+        width: auto;
     }
     .feedback__form__right{
         width: auto;
