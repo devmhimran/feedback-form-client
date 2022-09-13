@@ -21,3 +21,8 @@ td{
 tr:nth-child(odd){
     background-color: #EEF1FF;
 }
+@media only screen and (max-width: 768px){
+    .form__all__data__heading{
+        font-size: 38px;
+    }
+}

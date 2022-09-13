@@ -15,7 +15,7 @@ const FormAllData = () => {
             <h1 className='form__all__data__heading'>Form All Data</h1>
             <table className='table__main'>
                 <tr>
-                    <th>Emal</th>
+                    <th>Email</th>
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Address</th>
@@ -23,13 +23,13 @@ const FormAllData = () => {
                 </tr>
                 {
                     formData.map(allData => 
-                    <tr>
-                        <td>{allData.email}</td>
-                        <td>{allData.firstName}</td>
-                        <td>{allData.lastName}</td>
-                        <td>{allData.address}</td>
-                        <td>{allData.date}</td>
-                    </tr>)
+                        <tr>
+                            <td>{allData.email}</td>
+                            <td>{allData.firstName}</td>
+                            <td>{allData.lastName}</td>
+                            <td>{allData.address}</td>
+                            <td>{allData.date}</td>
+                        </tr>)
                 }
             </table>
         </div>
