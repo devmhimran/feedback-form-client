@@ -4,7 +4,7 @@ import './FormAllData.css';
 const FormAllData = () => {
     const [formData, setFormData] = useState([]);
     useEffect(() => {
-        fetch('https://feedback-form-server.vercel.app/form-all-data')
+        fetch('https://feedback-form-server-clone.vercel.app/form-all-data')
             .then(res => res.json())
             .then(data => setFormData(data))
     }, [])

@@ -22,7 +22,7 @@ const Home = () => {
             date: d.toLocaleDateString("en-US", options)
         };
 
-        fetch('https://feedback-form-server.vercel.app/feedback-form', {
+        fetch('https://feedback-form-server-clone.vercel.app/feedback-form', {
             method: 'POST',
             headers: {
                 "content-type": "application/json"
